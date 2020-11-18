@@ -52,7 +52,7 @@ def define_road_color(map_metadata):
 
 
 def define_road_width(map_metadata):
-    # List to store linewidths
+    # List to store the linewidths
     road_widths = []
     for item in map_metadata:
         if "footway" in item["highway"]:
