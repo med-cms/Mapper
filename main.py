@@ -17,8 +17,6 @@ args.location = str(args.location)
 
 if __name__ == "__main__":
     place = args.location
-    print(place)
-    print(type(place))
     G, coordinates = extract_location_data(place)
     map_metadata = extract_location_meta(G)
     road_colors = define_road_color(map_metadata)
